@@ -1,3 +1,5 @@
+import pandas as pd
+
 
 def cal_linear(p_min, p_max, p_now):
     price_ratio = (p_now - p_min) / (p_max - p_min)
@@ -67,6 +69,7 @@ class Choice:
         
         index = 0
         for price_unique, position in table:
+            # TODO: bug exist, for price = self.p_min, index out of range
             if price > price_unique:
                 break
             index += 1
@@ -75,6 +78,18 @@ class Choice:
 
         return position
         
+    def cal_price_position_distribute(self):
+        prices = []
+        pos_long = []
+        pos_short = []
+        price = self.p_min+0.001
+        while price <= self.p_max:
+            prices.append(price)
+            pos_long.append(self.cal_position(price, is_buy=True))
+            pos_short.append(self.cal_position(price, is_buy=False))
+            price += 0.001
+        pd_frame = pd.DataFrame({"price": prices, "pos_long": pos_long, "pos_short": pos_short})
+        return pd_frame
 
 if __name__ == "__main__":
     zz1000 = Choice(2.073, 3.247, "SH:512100")
@@ -83,7 +98,13 @@ if __name__ == "__main__":
     jyyh = Choice(3.67, 5.38, "SZ:002807")
     wxyh = Choice(4.80, 7.06, "SH:600908")
     yyetf = Choice(0.454, 0.907, "SH:512010")
-    for choice, price in zip([zz1000, kc50, gqhl, jyyh, wxyh, yyetf], [2.478, 0.971, 1.890, 3.88, 5.02, 0.460]):
+    choices = [zz1000, kc50, gqhl, jyyh, wxyh, yyetf]
+    prices  = [2.478, 0.971, 1.890, 3.88, 5.02, 0.460]
+    for choice, price in zip(choices, prices):
         print(f"{choice.code}: price: {price:.3f},\n\t"
               f"buy position: {choice.cal_position(price, True):.3f},\n\t"
               f"sell position: {choice.cal_position(price, False):.3f}")
+
+    for choice in choices:
+        pframe = choice.cal_price_position_distribute()
+        print(pframe)
