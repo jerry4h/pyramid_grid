@@ -46,9 +46,10 @@ def cal_sell_price_position(p_min, p_max, sell_price_table, out_table):
 
 
 class Choice:
-    def __init__(self, p_min, p_max, code=""):
+    def __init__(self, p_min, p_max, pos_max, code=""):
         self.p_min = p_min
         self.p_max = p_max
+        self.pos_max = pos_max
         self.code = code
         self.buy_table = []
         self.sell_table = []
@@ -80,31 +81,25 @@ class Choice:
         
     def cal_price_position_distribute(self):
         prices = []
+        pos_rate_long = []
+        pos_rate_short = []
         pos_long = []
         pos_short = []
         price = self.p_min+0.001
         while price <= self.p_max:
             prices.append(price)
-            pos_long.append(self.cal_position(price, is_buy=True))
-            pos_short.append(self.cal_position(price, is_buy=False))
+
+            long_rate = self.cal_position(price, is_buy=True)
+            pos_rate_long.append(long_rate)
+            pos_long.append(int(long_rate * self.pos_max))
+
+            short_rate = self.cal_position(price, is_buy=False)
+            pos_rate_short.append(short_rate)
+            pos_short.append(int(short_rate * self.pos_max))
+            
             price += 0.001
-        pd_frame = pd.DataFrame({"price": prices, "pos_long": pos_long, "pos_short": pos_short})
+        pd_frame = pd.DataFrame(
+            {"rate_long": pos_rate_long, "rate_short": pos_rate_short, "pos_long": pos_long, "pos_short": pos_short},
+            index=prices)
         return pd_frame
 
-if __name__ == "__main__":
-    zz1000 = Choice(2.073, 3.247, "SH:512100")
-    kc50 = Choice(0.848, 1.696, "SH:588000")
-    gqhl = Choice(1.820, 2.215, "SH:501059")
-    jyyh = Choice(3.67, 5.38, "SZ:002807")
-    wxyh = Choice(4.80, 7.06, "SH:600908")
-    yyetf = Choice(0.454, 0.907, "SH:512010")
-    choices = [zz1000, kc50, gqhl, jyyh, wxyh, yyetf]
-    prices  = [2.478, 0.971, 1.890, 3.88, 5.02, 0.460]
-    for choice, price in zip(choices, prices):
-        print(f"{choice.code}: price: {price:.3f},\n\t"
-              f"buy position: {choice.cal_position(price, True):.3f},\n\t"
-              f"sell position: {choice.cal_position(price, False):.3f}")
-
-    for choice in choices:
-        pframe = choice.cal_price_position_distribute()
-        print(pframe)
