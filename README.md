@@ -4,4 +4,5 @@ pyramid grid quantitative trading
 features
 
 - long-term position control
-- (TODO) risk and grid density
+- risk and grid density
+- (TODO) short-term trade plan
