@@ -108,6 +108,16 @@ class Choice:
         self.pos_max = pos_max
         self.code = code
         self.buy_table = []
+        
+        # short-term trade plan
+        self.p_now = -1
+        self.p_last_buy = -1
+        self.p_last_sell = -1
+        self.p_last_buy_num = -1
+        self.p_last_sell_num = -1
+        self.pos_basic = (pos_max / 40) * (math.log(0.5) / math.log(p_min / p_max))
+        self.pos_increase_rate = 0.1
+        self.pos_decrease_rate = 0.1
         self.sell_table = []
         
         # mid-term risk and grid density
@@ -119,15 +129,8 @@ class Choice:
         self.sell_contrast_rate = -1
         self.sell_difference_rate = -1
         
-        # short-term trade plan
-        self.p_now = -1
-        self.p_last_buy = -1
-        self.p_last_sell = -1
-        self.p_last_buy_num = -1
-        self.p_last_sell_num = -1
-        self.pos_basic = (pos_max / 40) * (math.log(0.5) / math.log(p_min / p_max))
-        self.pos_increase_rate = 0.1
-        self.pos_decrease_rate = 0.1
+        # trade log
+        self.log = None
         
         cal_buy_price_position(p_min, p_max, standard_buy_price_position, self.buy_table)
         cal_sell_price_position(p_min, p_max, standard_sell_price_position, self.sell_table)
@@ -196,3 +199,12 @@ class Choice:
     
     def cal_pos_number_per_trade(self):
         return self.pos_basic
+    
+    def add_record(self, date, action, price, count):
+        return
+    
+    def load_record(self, csv_path):
+        return
+    
+    def save_record(self, csv_path):
+        return
