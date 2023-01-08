@@ -1,60 +1,56 @@
 
 ```
 Density 20230102
-512100.SH: price: 2.507,
+512100.SH: price: 2.595,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-588000.SH: price: 1.003,
+588000.SH: price: 1.032,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-501059.SH: price: 1.895,
+501059.SH: price: 1.928,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-002807.SZ: price: 3.970,
+002807.SZ: price: 4.050,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-600908.SH: price: 5.270,
+600908.SH: price: 5.440,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-512010.SH: price: 0.478,
+512010.SH: price: 0.491,
 	risk level: 很大机会
 	buy sell contrast and diff: (0.03, 0.02, 0.04, 0.03)
 ```
 
 ```
-512100.SH: price: 0.478,
-	number_per_trade: 772
-588000.SH: price: 0.478,
-	number_per_trade: 1250
-501059.SH: price: 0.478,
-	number_per_trade: 2647
-002807.SZ: price: 0.478,
-	number_per_trade: 589
-600908.SH: price: 0.478,
-	number_per_trade: 449
-512010.SH: price: 0.478,
-	number_per_trade: 2504
+512100.SH: number_per_trade: 772
+588000.SH: number_per_trade: 1250
+501059.SH: number_per_trade: 2647
+002807.SZ: number_per_trade: 589
+600908.SH: number_per_trade: 449
+512010.SH: number_per_trade: 2504
 ```
 
-## zz1000
+## zz1000 512100.SH
 
 | date     | action | price | count |
 | ---      | ---    | ---   | ---   |
 | 20221223 | buy    | 2.460 | 600   |
 | 20230103 | sell   | 2.533 | 800   |
-| C        | sell   | 2.609 | 900   |
-| R        | buy    | 2.457 | 800   |
+| 20230106 | sell   | 2.609 | 900   |
+| C        | sell   | 2.687 | 1000  |
+| R        | buy    | 2.531 | 800   |
 
-## kc50
+## kc50 588000.SH
 
 | date     | action | price | count  |
 | ---      | ---    | ---   | ---    |
 | 20221223 | buy    | 0.965 | 1200   |
 | 20221227 | sell   | 0.999 | 1200   |
-| C        | sell   | 1.029 | 1300   |
-| R        | buy    | 0.969 | 1200   |
+| 20230106 | sell   | 1.029 | 1300   |
+| C        | sell   | 1.060 | 1400   |
+| R        | buy    | 0.998 | 1200   |
 
-## gqhl
+## gqhl 501059.SH
 
 | date     | action | price | count |
 | ---      | ---    | ---   | ---   |
@@ -62,7 +58,7 @@ Density 20230102
 | C        | buy    | 1.848 | 2600  |
 | R        | sell   | 1.962 | 2600  |
 
-## jyyh
+## jyyh 002807.SZ
 
 | date     | action | price | count |
 | ---      | ---    | ---   | ---   |
@@ -72,8 +68,7 @@ Density 20230102
 | C        | sell   | 4.26  | 800   |
 | R        | buy    | 4.02  | 600   |
 
-
-## wxyh
+## wxyh 600908.SH
 
 | date     | action | price | count |
 | ---      | ---    | ---   | ---   |
@@ -84,7 +79,7 @@ Density 20230102
 | C        | sell   | 5.70  | 800   |
 | R        | buy    | 5.36  | 500   |
 
-## yyetf
+## yyetf 512010.SH
 
 | date     | action | price | count |
 | ---      | ---    | ---   | ---   |
