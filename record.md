@@ -1,24 +1,24 @@
 
 ```
-20230109
-512100.SH: price: 2.595,
+20230113
+512100.SH: price: 2.608,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-588000.SH: price: 1.032,
+588000.SH: price: 1.017,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-501059.SH: price: 1.928,
+501059.SH: price: 1.941,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
 002807.SZ: price: 4.050,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-600908.SH: price: 5.440,
+600908.SH: price: 5.470,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-512010.SH: price: 0.491,
+512010.SH: price: 0.511,
 	risk level: 很大机会
-	buy sell contrast and diff: (0.03, 0.02, 0.04, 0.03)
+	buy sell contrast and diff: (0.03, 0.025, 0.04, 0.025)
 ```
 
 ```
@@ -89,5 +89,5 @@
 | 20221222 | sell   | 0.475 | 2500  |
 | 20230105 | sell   | 0.489 | 2700  |
 | 20230110 | sell   | 0.504 | 2900  |
-| C        | sell   | 0.519 | 3100  |
+| C        | sell   | 0.517 | 3100  |
 | R        | buy    | 0.489 | 2500  |
