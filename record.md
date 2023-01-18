@@ -1,5 +1,29 @@
 
 ```
+512100.SH: price: 2.608,
+	long position: 0.220, 4405
+	short position: 0.684, 13673
+588000.SH: price: 1.017,
+	long position: 0.536, 26817
+	short position: 0.900, 45018
+501059.SH: price: 1.941,
+	long position: 0.379, 11368
+	short position: 0.811, 24342
+002807.SZ: price: 4.050,
+	long position: 0.503, 6534
+	short position: 0.881, 11459
+600908.SH: price: 5.470,
+	long position: 0.393, 3934
+	short position: 0.820, 8196
+512010.SH: price: 0.511,
+	long position: 0.669, 66936
+	short position: 0.937, 93709
+603323.SH: price: 4.890,
+	long position: 0.530, 5303
+	short position: 0.897, 8972
+```
+
+```
 20230113
 512100.SH: price: 2.608,
 	risk level: 风险平衡
@@ -19,6 +43,9 @@
 512010.SH: price: 0.511,
 	risk level: 很大机会
 	buy sell contrast and diff: (0.03, 0.025, 0.04, 0.025)
+603323.SH: price: 4.890,
+	risk level: 风险平衡
+	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
 ```
 
 ```
@@ -28,6 +55,7 @@
 002807.SZ: number_per_trade: 589
 600908.SH: number_per_trade: 449
 512010.SH: number_per_trade: 2504
+603323.SH: number_per_trade: 404
 ```
 
 ## zz1000 512100.SH
@@ -67,8 +95,11 @@
 | 20230105 | sell   | 4.14  | 700   |
 | 20230110 | buy    | 4.02  | 600   |
 | 20230116 | sell   | 4.14  | 600   |
-| C        | sell   | 4.26  | 700   |
-| R        | buy    | 4.02  | 600   |
+| 20230118 | sell   | 4.26  | 700   |
+| 20230118 | sell   | 4.39  | 700   |
+| 20230118 | buy    | 4.26  | 600   |
+| C        | buy    | 4.13  | 700   |
+| R        | sell   | 4.39  | 600   |
 
 ## wxyh 600908.SH
 
