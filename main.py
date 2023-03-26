@@ -101,12 +101,15 @@ def cal_sell_price_position(p_min, p_max, sell_price_table, out_table):
 
 
 class Choice:
-    def __init__(self, p_min, p_max, pos_max, code=""):
+    def __init__(self, p_min, p_max, pos_max, price, d_month, d_week, code=""):
         # long-term position control
         self.p_min = p_min
         self.p_max = p_max
         self.pos_max = pos_max
         self.code = code
+        self.price = price
+        self.d_month = d_month
+        self.d_week = d_week
         self.buy_table = []
         
         # short-term trade plan
