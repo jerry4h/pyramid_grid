@@ -49,12 +49,6 @@ def kdj_to_contrast_diff(d_month, d_week):
         elif d_week < 70: return "很大机会", 0.03, 0.02, 0.04, 0.03
         elif d_week < 80: return "很大机会", 0.03, 0.025, 0.04, 0.025
         else:             return "风险平衡", 0.03, 0.03, 0.03, 0.02
-    elif d_month < 30:
-        if   d_week < 20: return "巨大机会", 0.03, 0.015, 0.05, 0.03
-        elif d_week < 30: return "很大机会", 0.03, 0.018, 0.04, 0.03
-        elif d_week < 70: return "很大机会", 0.03, 0.02, 0.04, 0.03
-        elif d_week < 80: return "很大机会", 0.03, 0.025, 0.04, 0.025
-        else:             return "风险平衡", 0.03, 0.03, 0.03, 0.02
     elif d_month < 40:
         if   d_week < 20: return "很大机会", 0.03, 0.02, 0.04, 0.03 
         else:             return "风险平衡", 0.03, 0.03, 0.03, 0.03
