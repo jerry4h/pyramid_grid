@@ -1,60 +1,60 @@
 
 ```
-512100.SH: price: 2.808,
-	long position: 0.093, 1870
-	short position: 0.506, 10124
-588000.SH: price: 1.207,
-	long position: 0.247, 12360
-	short position: 0.714, 35694
-501059.SH: price: 1.955,
-	long position: 0.327, 9804
-	short position: 0.782, 23456
-512010.SH: price: 0.483,
-	long position: 0.811, 81145
-	short position: 0.968, 96799
-515790.SH: price: 1.327,
-	long position: 0.353, 10575
-	short position: 0.796, 23893
-002807.SZ: price: 4.010,
-	long position: 0.537, 6981
-	short position: 0.901, 11708
-600908.SH: price: 5.380,
-	long position: 0.452, 4520
-	short position: 0.853, 8528
-600926.SH: price: 11.710,
-	long position: 0.288, 1151
-	short position: 0.754, 3017
-603323.SH: price: 4.670,
-	long position: 0.705, 5643
-	short position: 0.945, 7559
+512100.SH: price: 2.799,
+	long position: 0.095, 1908
+	short position: 0.514, 10283
+588000.SH: price: 1.182,
+	long position: 0.272, 13589
+	short position: 0.738, 36922
+501059.SH: price: 1.966,
+	long position: 0.292, 8759
+	short position: 0.759, 22759
+512010.SH: price: 0.488,
+	long position: 0.786, 78608
+	short position: 0.962, 96247
+515790.SH: price: 1.315,
+	long position: 0.372, 11173
+	short position: 0.808, 24232
+002807.SZ: price: 3.980,
+	long position: 0.563, 7317
+	short position: 0.909, 11822
+600908.SH: price: 5.480,
+	long position: 0.387, 3869
+	short position: 0.816, 8159
+600926.SH: price: 12.050,
+	long position: 0.250, 1000
+	short position: 0.717, 2867
+603323.SH: price: 4.660,
+	long position: 0.715, 5721
+	short position: 0.947, 7576
 ```
 
 ```
-512100.SH: price: 2.808,
+512100.SH: price: 2.799,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-588000.SH: price: 1.207,
+588000.SH: price: 1.182,
 	risk level: 很大风险
 	buy sell contrast and diff: (0.04, 0.03, 0.03, 0.025)
-501059.SH: price: 1.955,
+501059.SH: price: 1.966,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-512010.SH: price: 0.483,
+512010.SH: price: 0.488,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-515790.SH: price: 1.327,
+515790.SH: price: 1.315,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-002807.SZ: price: 4.010,
+002807.SZ: price: 3.980,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-600908.SH: price: 5.380,
+600908.SH: price: 5.480,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-600926.SH: price: 11.710,
-	risk level: 巨大机会
-	buy sell contrast and diff: (0.03, 0.015, 0.05, 0.03)
-603323.SH: price: 4.670,
+600926.SH: price: 12.050,
+	risk level: 很大机会
+	buy sell contrast and diff: (0.03, 0.018, 0.04, 0.03)
+603323.SH: price: 4.660,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
 ```
@@ -99,6 +99,8 @@
 | 20230331 | sell   | 1.123 | 1400   | 1.025        |
 | 20230403 | sell   | 1.157 | 1500   |
 | 20230406 | sell   | 1.195 | 1600   | 1.005        |
+| 20230413 | buy    | 1.147 | 1200   |
+| 20230414 | sell   | 1.181 | 1200   | 1.004        |
 
 ## gqhl 501059.SH
 
@@ -128,6 +130,7 @@
 | 20230320 | buy    | 0.455 | 3200  |
 | 20230321 | sell   | 0.469 | 2500  | 0.464        |
 | 20230407 | sell   | 0.483 | 2700  | 0.464        |
+| 20230414 | sell   | 0.497 | 2900  | 0.462        |
 
 ## gfetf 515790.SH
 
