@@ -1,60 +1,60 @@
 
 ```
-512100.SH: price: 2.708,
-	long position: 0.149, 2985
-	short position: 0.595, 11898
-588000.SH: price: 1.164,
-	long position: 0.289, 14473
-	short position: 0.756, 37807
-501059.SH: price: 1.998,
-	long position: 0.224, 6734
-	short position: 0.689, 20668
-512010.SH: price: 0.464,
-	long position: 0.908, 90787
-	short position: 0.989, 98896
-515790.SH: price: 1.279,
-	long position: 0.432, 12968
-	short position: 0.842, 25249
-002807.SZ: price: 4.070,
-	long position: 0.485, 6310
-	short position: 0.872, 11333
-600908.SH: price: 5.580,
-	long position: 0.322, 3219
-	short position: 0.779, 7791
-600926.SH: price: 11.870,
-	long position: 0.270, 1080
-	short position: 0.737, 2947
-603323.SH: price: 4.730,
-	long position: 0.647, 5175
-	short position: 0.932, 7458
+512100.SH: price: 2.692,
+	long position: 0.161, 3212
+	short position: 0.609, 12182
+588000.SH: price: 1.133,
+	long position: 0.335, 16758
+	short position: 0.787, 39330
+501059.SH: price: 2.024,
+	long position: 0.170, 5089
+	short position: 0.620, 18611
+512010.SH: price: 0.461,
+	long position: 0.923, 92310
+	short position: 0.992, 99227
+515790.SH: price: 1.271,
+	long position: 0.446, 13367
+	short position: 0.849, 25475
+002807.SZ: price: 4.080,
+	long position: 0.477, 6199
+	short position: 0.867, 11269
+600908.SH: price: 5.680,
+	long position: 0.276, 2755
+	short position: 0.742, 7422
+600926.SH: price: 12.560,
+	long position: 0.194, 775
+	short position: 0.651, 2602
+603323.SH: price: 4.740,
+	long position: 0.637, 5097
+	short position: 0.930, 7441
 ```
 
 ```
-512100.SH: price: 2.708,
+512100.SH: price: 2.692,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-588000.SH: price: 1.164,
+588000.SH: price: 1.133,
 	risk level: 很大风险
 	buy sell contrast and diff: (0.04, 0.03, 0.03, 0.025)
-501059.SH: price: 1.998,
+501059.SH: price: 2.024,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-512010.SH: price: 0.464,
+512010.SH: price: 0.461,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-515790.SH: price: 1.279,
+515790.SH: price: 1.271,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-002807.SZ: price: 4.070,
+002807.SZ: price: 4.080,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-600908.SH: price: 5.580,
+600908.SH: price: 5.680,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-600926.SH: price: 11.870,
-	risk level: 很大机会
-	buy sell contrast and diff: (0.03, 0.02, 0.04, 0.03)
-603323.SH: price: 4.730,
+600926.SH: price: 12.560,
+	risk level: 风险平衡
+	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
+603323.SH: price: 4.740,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
 ```
@@ -82,6 +82,7 @@
 | 20230202 | sell   | 2.768 | 1000  | 3.070        |
 | 20230314 | buy    | 2.685 | 800   | 3.000        |
 | 20230403 | sell   | 2.766 | 800   | 3.052        |
+| 20230424 | buy    | 2.683 | 800   | 2.985        |
 
 ## kc50 588000.SH
 
@@ -103,6 +104,7 @@
 | 20230414 | sell   | 1.181 | 1200   | 1.004        |
 | 20230420 | sell   | 1.211 | 1400   |
 | 20230421 | buy    | 1.163 | 1200   | 1.000        |
+| 20230425 | buy    | 1.128 | 1400   | 1.007        |
 
 ## gqhl 501059.SH
 
@@ -136,6 +138,7 @@
 | 20230414 | sell   | 0.497 | 2900  | 0.462        |
 | 20230418 | buy    | 0.482 | 2500  |
 | 20230421 | buy    | 0.467 | 2700  | 0.463        |
+| 20230425 | buy    | 0.453 | 2900  | 0.463        |
 
 ## gfetf 515790.SH
 
@@ -149,6 +152,10 @@
 | 20230320 | buy    | 1.283 | 800   |
 | 20230322 | sell   | 1.326 | 800   | 1.375        |
 | 20230420 | buy    | 1.291 | 1400  | 1.365        |
+| 20230424 | buy    | 1.252 | 1500  |
+| 20230425 | buy    | 1.214 | 1600  |
+| 20230426 | sell   | 1.250 | 800   |
+| 20230426 | sell   | 1.294 | 900   | 1.347        |
 
 ---
 
@@ -188,6 +195,7 @@
 | 20230320 | sell   | 5.62  | 500   |
 | 20230321 | buy    | 5.45  | 500   | 5.629        |
 | 20230418 | sell   | 5.61  | 500   | 5.631        |
+| 20230428 | sell   | 5.78  | 600   | 5.613        |
 
 ## hzyh 600926.SH
 
@@ -199,6 +207,7 @@
 | 20230310 | buy    | 11.76 | 200   |
 | 20230313 | buy    | 11.58 | 200   | 12.004       |
 | 20230417 | sell   | 12.16 | 100   | 11.992       |
+| 20230428 | sell   | 12.60 | 100   | 11.934       |
 
 ## snyh 603323.SH
 
