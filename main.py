@@ -140,9 +140,13 @@ class Choice:
     
     def cal_position(self, price, is_buy=True):
         table = self.buy_table if is_buy else self.sell_table
-        if price > table[0][0] or price < table[-1][0]:
-            print(f"{self.code} price {price:.3f} out range: [{table[-1][0]:.3f}, {table[0][0]:.3f}]")
-            exit(-1)
+        # TODO: price out of range
+        if price > table[0][0]:
+            print(f"{self.code} price {price:.3f} out of range: [{table[-1][0]:.3f}, {table[0][0]:.3f}]")
+            return 0
+        if price < table[-1][0]:
+            print(f"{self.code} price {price:.3f} out of range: [{table[-1][0]:.3f}, {table[0][0]:.3f}]")
+            return 1
         
         index = 0
         for price_unique, position in table:
