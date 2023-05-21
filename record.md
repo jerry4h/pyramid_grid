@@ -1,72 +1,72 @@
 
 ```
-512100.SH: price: 2.610,
-	long position: 0.219, 4376
-	short position: 0.682, 13637
-588000.SH: price: 1.056,
-	long position: 0.469, 23435
-	short position: 0.862, 43113
+512100.SH: price: 2.640,
+	long position: 0.198, 3951
+	short position: 0.655, 13105
+588000.SH: price: 1.084,
+	long position: 0.420, 21007
+	short position: 0.835, 41737
 501059.SH: price: 2.022,
 	long position: 0.174, 5215
 	short position: 0.626, 18769
-512010.SH: price: 0.449,
-	long position: 1.000, 100000
-	short position: 1.000, 100000
-515790.SH: price: 1.207,
-	long position: 0.552, 16557
-	short position: 0.906, 27169
-513330.SH: price: 0.408,
-	long position: 0.645, 64468
-	short position: 0.932, 93172
-513100.SH: price: 0.946,
-	long position: 0.484, 24205
-	short position: 0.871, 43550
-002807.SZ: price: 4.100,
-	long position: 0.460, 5975
-	short position: 0.857, 11142
-600908.SH: price: 5.740,
-	long position: 0.253, 2534
-	short position: 0.720, 7201
-600926.SH: price: 12.580,
-	long position: 0.192, 766
-	short position: 0.648, 2591
-603323.SH: price: 4.850,
-	long position: 0.555, 4442
-	short position: 0.907, 7254
+512010.SH: price: 0.459,
+	long position: 0.904, 90440
+	short position: 0.988, 98821
+515790.SH: price: 1.234,
+	long position: 0.507, 15211
+	short position: 0.884, 26520
+513330.SH: price: 0.409,
+	long position: 0.640, 63962
+	short position: 0.931, 93062
+513100.SH: price: 0.990,
+	long position: 0.395, 19737
+	short position: 0.820, 41017
+002807.SZ: price: 4.030,
+	long position: 0.520, 6758
+	short position: 0.891, 11586
+600908.SH: price: 5.640,
+	long position: 0.290, 2903
+	short position: 0.757, 7569
+600926.SH: price: 12.630,
+	long position: 0.186, 744
+	short position: 0.641, 2564
+603323.SH: price: 4.830,
+	long position: 0.568, 4542
+	short position: 0.911, 7288
 ```
 
 ```
-512100.SH: price: 2.610,
+512100.SH: price: 2.640,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-588000.SH: price: 1.056,
+588000.SH: price: 1.084,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
 501059.SH: price: 2.022,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-512010.SH: price: 0.449,
+512010.SH: price: 0.459,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-515790.SH: price: 1.207,
+515790.SH: price: 1.234,
 	risk level: 很大机会
 	buy sell contrast and diff: (0.03, 0.02, 0.04, 0.03)
-513330.SH: price: 0.408,
+513330.SH: price: 0.409,
 	risk level: 很大机会
 	buy sell contrast and diff: (0.03, 0.025, 0.04, 0.03)
-513100.SH: price: 0.946,
+513100.SH: price: 0.990,
 	risk level: 很大风险
 	buy sell contrast and diff: (0.04, 0.03, 0.03, 0.025)
-002807.SZ: price: 4.100,
+002807.SZ: price: 4.030,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-600908.SH: price: 5.740,
+600908.SH: price: 5.640,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-600926.SH: price: 12.580,
+600926.SH: price: 12.630,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
-603323.SH: price: 4.850,
+603323.SH: price: 4.830,
 	risk level: 风险平衡
 	buy sell contrast and diff: (0.03, 0.03, 0.03, 0.03)
 ```
@@ -87,8 +87,8 @@
 
 ## zz1000 512100.SH
 
-| date     | action | price | count | Holding cost |
-| ---      | ---    | ---   | ---   | ---          |
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
 | 20221223 | buy    | 2.460 | 600   |
 | 20230103 | sell   | 2.533 | 800   |
 | 20230106 | sell   | 2.609 | 900   |
@@ -97,11 +97,12 @@
 | 20230314 | buy    | 2.685 | 800   | 3.000        |
 | 20230403 | sell   | 2.766 | 800   | 3.052        |
 | 20230424 | buy    | 2.683 | 800   | 2.985        |
+| 20230515 | buy    | 2.603 | 1000  | 2.914        | 5400          |
 
 ## kc50 588000.SH
 
-| date     | action | price | count  | Holding cost |
-| ---      | ---    | ---   | ---    | ---          |
+| date     | action | price | count  | Holding cost | residual count |
+| ---      | ---    | ---   | ---    | ---          | ---            |
 | 20221223 | buy    | 0.965 | 1200   |
 | 20221227 | sell   | 0.999 | 1200   |
 | 20230106 | sell   | 1.029 | 1300   |
@@ -120,26 +121,26 @@
 | 20230421 | buy    | 1.163 | 1200   | 1.000        |
 | 20230425 | buy    | 1.128 | 1400   | 1.007        |
 | 20230505 | buy    | 1.094 | 1500   | 1.012        |
-| 20230510 | buy    | 1.061 | 1600   | 1.014        |
+| 20230510 | buy    | 1.061 | 1600   | 1.014        | 28400          |
 
 ## gqhl 501059.SH
 
-| date     | action | price | count | Holding cost |
-| ---      | ---    | ---   | ---   | ---          |
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
 | 20221222 | buy    | 1.905 | 1700  |
 | 20230120 | sell   | 1.962 | 2600  | 1.969        |
 | 20230303 | sell   | 2.023 | 2800  | 1.958        |
 | 20230310 | buy    | 1.958 | 2600  | 1.958        |
 | 20230419 | sell   | 2.017 | 4000  | 1.937        |
 | 20230508 | sell   | 2.078 | 4900  |
-| 20230512 | buy    | 2.016 | 2600  | 1.883        |
+| 20230512 | buy    | 2.016 | 2600  | 1.883        | 9000           |
 
 ---
 
 ## yyetf 512010.SH
 
-| date     | action | price | count | Holding cost |
-| ---      | ---    | ---   | ---   | ---          |
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
 | 20221222 | buy    | 0.458 | 2500  |
 | 20221222 | sell   | 0.475 | 2500  |
 | 20230105 | sell   | 0.489 | 2700  |
@@ -156,12 +157,12 @@
 | 20230414 | sell   | 0.497 | 2900  | 0.462        |
 | 20230418 | buy    | 0.482 | 2500  |
 | 20230421 | buy    | 0.467 | 2700  | 0.463        |
-| 20230425 | buy    | 0.453 | 2900  | 0.463        |
+| 20230425 | buy    | 0.453 | 2900  | 0.463        | 97100          |
 
 ## gfetf 515790.SH
 
-| date     | action | price | count | Holding cost |
-| ---      | ---    | ---   | ---   | ---          |
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
 | 20230301 | buy    | 1.424 | 2200  |
 | 20230302 | buy    | 1.403 | 2200  |
 | 20230310 | buy    | 1.382 | 2200  |
@@ -175,13 +176,26 @@
 | 20230426 | sell   | 1.250 | 800   |
 | 20230426 | sell   | 1.294 | 900   | 1.347        |
 | 20230504 | buy    | 1.255 | 800   | 1.342        |
+| 20230508 | buy    | 1.232 | 900   |
+| 20230510 | buy    | 1.207 | 1000  |
+| 20230516 | sell   | 1.255 | 800   | 1.331        | 15700          |
+
+## hslh 513330.SH
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
+| 20230509 | buy    | 0.409 | 10000 | 0.409        | 10000          |
+
+## nsdk 513100.SH
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
+| 20230519 | buy    | 0.993 | 8000  | 0.993        | 8000           |
 
 ---
 
 ## jyyh 002807.SZ
 
-| date     | action | price | count | Holding cost |
-| ---      | ---    | ---   | ---   | ---          |
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
 | 20221222 | buy    | 3.91  | 900   |
 | 20230104 | sell   | 4.02  | 600   |
 | 20230105 | sell   | 4.14  | 700   |
@@ -198,12 +212,12 @@
 | 20230328 | buy    | 4.00  | 600   | 4.792        |
 | 20230419 | sell   | 4.12  | 600   | 4.852        |
 | 20230505 | sell   | 4.24  | 700   | 4.923        |
-| 20230511 | buy    | 4.12  | 600   | 4.851        |
+| 20230511 | buy    | 4.12  | 600   | 4.851        | 6700           |
 
 ## wxyh 600908.SH
 
-| date     | action | price | count | Holding cost |
-| ---      | ---    | ---   | ---   | ---          |
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
 | 20221222 | buy    | 5.05  | 900   |
 | 20221228 | sell   | 5.19  | 500   |
 | 20230104 | sell   | 5.37  | 600   |
@@ -220,12 +234,12 @@
 | 20230504 | buy    | 5.61  | 500   |
 | 20230504 | sell   | 5.78  | 500   | 5.596        |
 | 20230509 | sell   | 5.95  | 600   |
-| 20230510 | buy    | 5.77  | 500   | 5.570        |
+| 20230510 | buy    | 5.77  | 500   | 5.570        | 4600           |
 
 ## hzyh 600926.SH
 
-| date     | action | price | count | Holding cost |
-| ---      | ---    | ---   | ---   | ---          |
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
 | 20230221 | buy    | 12.30 | 400   |
 | 20230228 | buy    | 12.12 | 200   |
 | 20230308 | buy    | 11.94 | 200   |
@@ -234,14 +248,14 @@
 | 20230417 | sell   | 12.16 | 100   | 11.992       |
 | 20230428 | sell   | 12.60 | 100   | 11.934       |
 | 20230505 | sell   | 12.98 | 200   | 11.677       |
-| 20230510 | buy    | 12.59 | 100   | 11.779       |
+| 20230510 | buy    | 12.59 | 100   | 11.779       | 900            |
 
 ## snyh 603323.SH
 
-| date     | action | price | count | Holding cost |
-| ---      | ---    | ---   | ---   | ---          |
+| date     | action | price | count | Holding cost | residual count |
+| ---      | ---    | ---   | ---   | ---          | ---            |
 | 20230119 | buy    | 4.83  | 1000  | 8.954        |
 | 20230417 | buy    | 4.65  | 1000  | 6.905        |
 | 20230505 | sell   | 4.85  | 300   | 7.249        |
 | 20230508 | sell   | 5.00  | 400   |
-| 20230510 | buy    | 4.85  | 300   | 7.357        |
+| 20230510 | buy    | 4.85  | 300   | 7.357        | 1700           |
